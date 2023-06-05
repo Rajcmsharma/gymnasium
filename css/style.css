@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background: url('/gymnasium/img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    background-size: cover;
+    /* min-height: 100vh; */
+}
+
+.left {
+    /* border: 2px solid blue; */
+    text-align: center;
+
+    font-family: 'Sigmar', cursive;
+    color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    left: 45px;
+    top: 18px;
+}
+
+.left img {
+
+    height: 80px;
+    filter: invert(100%);
+}
+
+.mid {
+    display: block;
+    width: 42%;
+    /* border: 2px solid green; */
+    background-color: black;
+    margin: 19px auto;
+    border-radius: 30px;
+    text-align: center;
+    height: 54px;
+
+}
+
+
+.navbar {
+    padding-top: 15px;
+
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+}
+
+.navbar li a {
+
+    padding: 0px 39px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+
+}
+
+.right {
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.btn {
+    font-weight: bold;
+    font-size: 28px;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 14px;
+    padding: 5px 14px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1f5651;
+
+}
+
+.content {
+    font-family: 'Sigmar', cursive;
+    text-align: center;
+    border: 2px solid darkslategrey;
+    display: block;
+    width: 34%;
+    position: relative;
+    top: 174px;
+    left: 136px;
+    padding: 22px 25px;
+    text-shadow: 3px 3px 30px red;
+    
+
+}
+.content::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left:1px;
+    top:2px;
+    background-color: midnightblue;
+    z-index: -1;
+    opacity: 40%;
+    filter: blur(20px);
+}
+
+#form_headline {
+    color: azure;
+
+    font-size: 35px;
+    background-color: black;
+    border-radius: 25px;
+    margin-bottom: 38px;
+
+}
+
+.data input {
+    padding: 3px 0px;
+    font-size: 20px;
+    display: block;
+    border: 2px solid #1f5651;
+    margin: 28px auto;
+    width: 70%;
+    height: 31px;
+}
