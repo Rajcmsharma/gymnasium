@@ -5,7 +5,7 @@
 
 body {
 
-    background: url('/gymnasium/img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
+    background: url('../img/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg');
     background-size: cover;
     /* min-height: 100vh; */
 }
